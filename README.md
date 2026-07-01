@@ -32,3 +32,14 @@ Land a WordPress developer job within 90 days by building a portfolio of real pr
 ## Courses
 - **Coursera:** Building Web Applications in PHP (free with Coursera Plus)
 - **Udemy:** WordPress Theme Development From Scratch to Advanced by Imran Sayed
+
+## PHP Restart — Learning from Zero
+
+Started over with PHP fundamentals, one concept per day,
+building everything from scratch without pre-written code.
+
+### Progress
+- Day 1: Variables and echo ✅
+- Day 2: Strings and concatenation
+- Day 3: Numbers and math
+...
