@@ -1,45 +1,44 @@
-# 90-Day WordPress Developer Roadmap
+# 90-Day WordPress Developer Plan
+**Goal:** Land a WordPress developer job by building real projects while learning from zero.
 
-## Goal
-Land a WordPress developer job within 90 days by building a portfolio of real projects while learning PHP, theme development, plugin development, WooCommerce, and REST API integration.
-
-## Stack
-- PHP (WordPress-focused)
-- WordPress (themes, plugins, REST API)
-- JavaScript (vanilla JS + integration with WordPress)
-- MySQL
+## My Stack
+- PHP (from scratch)
+- WordPress (custom themes, plugins, WooCommerce, REST API)
+- JavaScript (vanilla JS + WordPress integration)
 - HTML5 & CSS3
-
-## Timeline
-- **Weeks 1–2:** PHP fundamentals + WordPress architecture
-- **Weeks 3–5:** Custom theme development (Portfolio Piece #1)
-- **Weeks 6–7:** Advanced theming (hooks, filters, queries)
-- **Weeks 8–9:** Plugin development (Portfolio Piece #2)
-- **Weeks 10–11:** WooCommerce (Portfolio Piece #3)
-- **Weeks 12:** REST API / Headless WordPress (Portfolio Piece #4)
-- **Week 13:** Portfolio assembly & launch
-
-## Progress
-- [ ] Week 1: PHP Fundamentals
-- [ ] Week 2: WordPress Architecture
-- [ ] Week 3-5: Theme Development
-- [ ] Week 6-7: Advanced Theming
-- [ ] Week 8-9: Plugin Development
-- [ ] Week 10-11: WooCommerce
-- [ ] Week 12: REST API
-- [ ] Week 13: Portfolio & Launch
-
-## Courses
-- **Coursera:** Building Web Applications in PHP (free with Coursera Plus)
-- **Udemy:** WordPress Theme Development From Scratch to Advanced by Imran Sayed
+- Webflow (alongside WordPress)
 
 ## PHP Restart — Learning from Zero
+Starting over with PHP fundamentals. One concept per day.
+No pre-written code — every line written myself.
 
-Started over with PHP fundamentals, one concept per day,
-building everything from scratch without pre-written code.
+### PHP Progress
+- [x] Day 1: Variables & echo
+- [x] Day 2: Strings & concatenation
+- [x] Day 3: Numbers & math
+- [x] Day 4: Conditionals — if/elseif/else
+- [x] Day 5: Indexed arrays
+- [ ] Day 6: Associative arrays
+- [ ] Day 7: Foreach loops
+- [ ] Day 8: Functions — basics
+- [ ] Day 9: Functions — return values
+- [ ] Day 10: $_GET — URL parameters
+- [ ] Day 11: $_POST + HTML forms
+- [ ] Day 12: Mini project — combine everything
 
-### Progress
-- Day 1: Variables and echo ✅
-- Day 2: Strings and concatenation
-- Day 3: Numbers and math
-...
+### WordPress Progress
+- [ ] Week 1: Theme structure, The Loop, template hierarchy
+- [ ] Week 2: header/footer, functions.php, CSS, menus
+- [ ] Week 3: Custom post types, ACF, WP_Query
+- [ ] Week 4: Hooks and filters
+- [ ] Plugin week: First plugin from scratch
+- [ ] WooCommerce week: Custom shop templates
+- [ ] REST API week: Headless WordPress
+- [ ] Portfolio week: Deploy and apply
+
+### Webflow Progress
+- [ ] Basics (after PHP done)
+- [ ] Intermediate
+- [ ] CMS & dynamic content
+
+## Folder Structure
