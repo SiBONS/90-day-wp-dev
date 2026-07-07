@@ -18,7 +18,7 @@ No pre-written code — every line written myself.
 - [x] Day 3: Numbers & math
 - [x] Day 4: Conditionals — if/elseif/else
 - [x] Day 5: Indexed arrays
-- [ ] Day 6: Associative arrays
+- [x] Day 6: Associative arrays
 - [ ] Day 7: Foreach loops
 - [ ] Day 8: Functions — basics
 - [ ] Day 9: Functions — return values
