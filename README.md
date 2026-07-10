@@ -19,9 +19,9 @@ No pre-written code — every line written myself.
 - [x] Day 4: Conditionals — if/elseif/else
 - [x] Day 5: Indexed arrays
 - [x] Day 6: Associative arrays
-- [ ] Day 7: Foreach loops
-- [ ] Day 8: Functions — basics
-- [ ] Day 9: Functions — return values
+- [x] Day 7: Foreach loops
+- [x] Day 8: Functions — basics
+- [x] Day 9: Functions — return values
 - [ ] Day 10: $_GET — URL parameters
 - [ ] Day 11: $_POST + HTML forms
 - [ ] Day 12: Mini project — combine everything
