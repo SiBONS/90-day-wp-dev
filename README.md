@@ -22,9 +22,9 @@ No pre-written code — every line written myself.
 - [x] Day 7: Foreach loops
 - [x] Day 8: Functions — basics
 - [x] Day 9: Functions — return values
-- [ ] Day 10: $_GET — URL parameters
-- [ ] Day 11: $_POST + HTML forms
-- [ ] Day 12: Mini project — combine everything
+- [x] Day 10: $_GET — URL parameters
+- [x] Day 11: $_POST + HTML forms
+- [x] Day 12: Mini project — combine everything
 
 ### WordPress Progress
 - [ ] Week 1: Theme structure, The Loop, template hierarchy
@@ -37,8 +37,12 @@ No pre-written code — every line written myself.
 - [ ] Portfolio week: Deploy and apply
 
 ### Webflow Progress
-- [ ] Basics (after PHP done)
+- [x] Basics (after PHP done)
 - [ ] Intermediate
 - [ ] CMS & dynamic content
 
 ## Folder Structure
+
+
+## Live Projects
+- Portfolio site: https://mile-kostic.netlify.app
