@@ -38,8 +38,8 @@ No pre-written code — every line written myself.
 
 ### Webflow Progress
 - [x] Basics (after PHP done)
-- [ ] Intermediate
-- [ ] CMS & dynamic content
+- [x] Intermediate
+- [] CMS & dynamic content
 
 ## Folder Structure
 
