@@ -1,24 +1,9 @@
-<!DOCTYPE html>
-<html <?php language_attributes(); ?>>
-<head>
-    <meta charset="<?php bloginfo('charset'); ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php bloginfo('name'); ?></title>
-    <?php wp_head(); ?>
-</head>
-<body <?php body_class(); ?>>
-
-<header>
-    <h1>DEV // LOG</h1>
-    <p>A tech blog by Mile Kostic</p>
-</header>
-
-<main>
+    <?php get_header(); ?>
     <?php if ( have_posts() ) : ?>
 
         <?php while ( have_posts() ) : the_post(); ?>
 
-            <article>
+            <article class="post-card">
                 <?php if ( has_post_thumbnail() ) : ?>
                     <?php the_post_thumbnail('medium'); ?>
                 <?php endif; ?>
@@ -39,8 +24,4 @@
     <?php else : ?>
         <p>No posts found.</p>
     <?php endif; ?>
-</main>
-
-<?php wp_footer(); ?>
-</body>
-</html>
+<?php get_footer(); ?>
