@@ -22,5 +22,15 @@ main { max-width: 860px; margin: 40px auto; padding: 0 24px; }
 .post-card h2 a:hover { color: #4f8ef7; }
 .post-card img { width: 100%; border-radius: 6px; margin-bottom: 16px; }
 
+
+/* Single post content */
+.post-card .entry-content h2,
+.post-card .entry-content h3 { 
+    font-size: 20px; 
+    margin: 20px 0 10px; 
+}
+.post-card .entry-content p { margin-bottom: 14px; }
+.post-card .entry-content ul { margin: 10px 0 14px 24px; }
+
 /* Footer */
 footer { background: #0f0f0f; color: #888; text-align: center; padding: 28px; margin-top: 60px; font-size: 13px; }
