@@ -7,8 +7,18 @@
 </head>
 <body <?php body_class(); ?>>
     <header>
-        <h1>DEV // LOG</h1>
-        <p>A tech blog by Mile Kostic</p>
+        <div class="header-inner">
+            <a href="<?php echo home_url('/'); ?>">DEV // LOG</a>
+            <nav>
+                <?php
+                wp_nav_menu([
+                    'theme_location' => 'primary',
+                    'menu_class' => 'primary-menu',
+                    'fallback_cb' => false,
+                ]);
+                ?>
+            </nav>
+        </div>
     </header>
     <main>
     

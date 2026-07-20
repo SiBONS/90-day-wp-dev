@@ -22,6 +22,44 @@ main { max-width: 860px; margin: 40px auto; padding: 0 24px; }
 .post-card h2 a:hover { color: #4f8ef7; }
 .post-card img { width: 100%; border-radius: 6px; margin-bottom: 16px; }
 
+/* Header inner */
+.header-inner {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Site logo */
+.site-logo, header a:first-child {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+/* Nav menu */
+.primary-menu {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.primary-menu a {
+    color: #aaaaaa;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.primary-menu a:hover {
+    color: #ffffff;
+}
+
 
 /* Single post content */
 .post-card .entry-content h2,
