@@ -70,5 +70,42 @@ main { max-width: 860px; margin: 40px auto; padding: 0 24px; }
 .post-card .entry-content p { margin-bottom: 14px; }
 .post-card .entry-content ul { margin: 10px 0 14px 24px; }
 
+
+/* Archive header */
+.archive-header {
+    margin-bottom: 32px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.archive-header h1 {
+    font-size: 28px;
+    color: #0f0f0f;
+}
+
+/* Read more link */
+.read-more, .post-card a[href*="read-more"] {
+    display: inline-block;
+    margin-top: 12px;
+    color: #4f8ef7;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* Back link */
+.post-card a[href*="home_url"] {
+    color: #4f8ef7;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Post meta */
+.post-meta {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 8px;
+}
+
 /* Footer */
 footer { background: #0f0f0f; color: #888; text-align: center; padding: 28px; margin-top: 60px; font-size: 13px; }
