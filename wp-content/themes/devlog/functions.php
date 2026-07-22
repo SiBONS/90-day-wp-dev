@@ -31,3 +31,18 @@ function devlog_register_cpts() {
     ]);
 }
 add_action('init', 'devlog_register_cpts');
+
+add_action('admin_footer_text', 'devlog_admin_footer');
+function devlog_admin_footer() {
+    echo 'DEV//LOG theme by Mile Kostic';
+}
+
+add_action('wp_head', 'devlog_head_extras');
+function devlog_head_extras() {
+    echo '<!-- DEV//LOG theme v1.0 -->';
+}
+
+add_action('publish_post', 'devlog_on_publish', 10, 2);
+function devlog_on_publish($post_id, $post) {
+    error_log('New post published: ' . $post->post_title);
+}
