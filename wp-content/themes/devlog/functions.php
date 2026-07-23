@@ -46,3 +46,22 @@ add_action('publish_post', 'devlog_on_publish', 10, 2);
 function devlog_on_publish($post_id, $post) {
     error_log('New post published: ' . $post->post_title);
 }
+
+add_filter('excerpt_length', 'devlog_excerpt_length');
+function devlog_excerpt_length($length) {
+    return 20;
+}
+
+add_filter('excerpt_more', 'devlog_excerpt_more');
+function devlog_excerpt_more($more) {
+    return '...';
+}
+
+add_filter('the_content', 'devlog_reading_time');
+function devlog_reading_time($content) {
+    if(!is_single()) return $content;  // ← add this line
+    $word_count = str_word_count(strip_tags($content));
+    $reading_time = ceil($word_count / 200);
+    $label = '<p class="reading-time">⏱ ' . $reading_time . ' min read</p>';
+    return $label . $content;
+}
