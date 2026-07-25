@@ -65,3 +65,34 @@ function devlog_reading_time($content) {
     $label = '<p class="reading-time">⏱ ' . $reading_time . ' min read</p>';
     return $label . $content;
 }
+
+function devlog_get_posts_by_category($category_slug, $count = 3) {
+    return new WP_Query([
+        'post_type'      => 'post',
+        'posts_per_page' => $count,
+        'tax_query'      => [[
+            'taxonomy' => 'category',
+            'field'    => 'slug',
+            'terms'    => $category_slug,
+        ]],
+    ]);
+}
+
+function devlog_get_recent_projects($count = 3) {
+    return new WP_Query([
+        'post_type'      => 'projects',
+        'posts_per_page' => $count,
+        'orderby'        => 'date',
+        'order'          => 'DESC',
+    ]);
+}
+
+function devlog_get_posts_this_year() {
+    return new WP_Query([
+        'post_type'      => 'post',
+        'posts_per_page' => 5,
+        'date_query'     => [[
+            'year' => date('Y'),
+        ]],
+    ]);
+}
