@@ -96,3 +96,16 @@ function devlog_get_posts_this_year() {
         ]],
     ]);
 }
+
+add_action('widgets_init', 'devlog_register_sidebars');
+function devlog_register_sidebars() {
+    register_sidebar([
+        'name'          => 'Blog Sidebar',
+        'id'            => 'blog-sidebar',
+        'description'   => 'Widgets in this area appear on blog posts and archives.',
+        'before_widget' => '<div class="widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
+    ]);
+}
