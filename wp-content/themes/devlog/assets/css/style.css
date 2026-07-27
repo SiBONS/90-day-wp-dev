@@ -142,5 +142,24 @@ main { max-width: 860px; margin: 40px auto; padding: 0 24px; }
     color: #0f0f0f;
 }
 
+.section-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0f0f0f;
+    margin: 40px 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #4f8ef7;
+}
+
+.archive-header {
+    margin-bottom: 32px;
+}
+
+.reading-time {
+    color: #888;
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+
 /* Footer */
 footer { background: #0f0f0f; color: #888; text-align: center; padding: 28px; margin-top: 60px; font-size: 13px; }
