@@ -19,3 +19,25 @@ function devlog_enqueue_assets() {
    );
 }
 add_action( 'wp_enqueue_scripts', 'devlog_enqueue_assets' );
+
+function devlog_register_cpts() {
+    register_post_type('projects', [
+        'labels' => [
+            'name'          => 'Projects',
+            'singular_name' => 'Project',
+            'add_new_item'  => 'Add New Project',
+            'edit_item'     => 'Edit Project',
+        ],
+        'public'      => true,
+        'has_archive' => true,
+        'supports'    => ['title', 'editor', 'thumbnail', 'excerpt'],
+        'menu_icon'   => 'dashicons-portfolio',
+        'rewrite'     => ['slug' => 'projects'],
+    ]);
+}
+add_action('init', 'devlog_register_cpts');
+
+function devlog_admin_footer() {
+    echo 'DEV//LOG theme by Mile Kostic';
+}
+add_action('admin_footer_text', 'devlog_admin_footer');
