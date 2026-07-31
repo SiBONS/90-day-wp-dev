@@ -41,3 +41,8 @@ function devlog_admin_footer() {
     echo 'DEV//LOG theme by Mile Kostic';
 }
 add_action('admin_footer_text', 'devlog_admin_footer');
+
+function devlog_head_extras() {
+    echo '<!-- DEV//LOG theme v1.0 -->';
+}
+add_action('wp_head', 'devlog_head_extras');
