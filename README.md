@@ -27,9 +27,9 @@ No pre-written code — every line written myself.
 - [x] Day 12: Mini project — combine everything
 
 ### WordPress Progress
-- [ ] Week 1: Theme structure, The Loop, template hierarchy
-- [ ] Week 2: header/footer, functions.php, CSS, menus
-- [ ] Week 3: Custom post types, ACF, WP_Query
+- [x] Week 1: Theme structure, The Loop, template hierarchy
+- [x] Week 2: header/footer, functions.php, CSS, menus
+- [x] Week 3: Custom post types, ACF, WP_Query
 - [ ] Week 4: Hooks and filters
 - [ ] Plugin week: First plugin from scratch
 - [ ] WooCommerce week: Custom shop templates
